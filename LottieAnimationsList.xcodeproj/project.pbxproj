@@ -13,6 +13,9 @@
 		025AD6242B67E95300A8AE8D /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AD6232B67E95300A8AE8D /* AnimationsListView.swift */; };
 		025AD6272B67EAA900A8AE8D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 025AD6262B67EAA900A8AE8D /* Lottie */; };
 		025AD6292B67EBDE00A8AE8D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AD6282B67EBDE00A8AE8D /* LottieView.swift */; };
+		025AD62C2B67EE1900A8AE8D /* baseball.json in Resources */ = {isa = PBXBuildFile; fileRef = 025AD62B2B67EE1900A8AE8D /* baseball.json */; };
+		025AD62F2B67EE2B00A8AE8D /* ramen.json in Resources */ = {isa = PBXBuildFile; fileRef = 025AD62D2B67EE2B00A8AE8D /* ramen.json */; };
+		025AD6302B67EE2B00A8AE8D /* dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 025AD62E2B67EE2B00A8AE8D /* dog.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		025AD61B2B67E79D00A8AE8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		025AD6232B67E95300A8AE8D /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		025AD6282B67EBDE00A8AE8D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		025AD62B2B67EE1900A8AE8D /* baseball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = baseball.json; sourceTree = "<group>"; };
+		025AD62D2B67EE2B00A8AE8D /* ramen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ramen.json; sourceTree = "<group>"; };
+		025AD62E2B67EE2B00A8AE8D /* dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dog.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				025AD6142B67E79B00A8AE8D /* LottieAnimationsListApp.swift */,
+				025AD62A2B67EDF300A8AE8D /* Animations */,
 				025AD6222B67E89400A8AE8D /* Views */,
 				025AD6182B67E79D00A8AE8D /* Assets.xcassets */,
 				025AD61A2B67E79D00A8AE8D /* Preview Content */,
@@ -78,6 +85,16 @@
 				025AD6282B67EBDE00A8AE8D /* LottieView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		025AD62A2B67EDF300A8AE8D /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				025AD62E2B67EE2B00A8AE8D /* dog.json */,
+				025AD62D2B67EE2B00A8AE8D /* ramen.json */,
+				025AD62B2B67EE1900A8AE8D /* baseball.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +162,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				025AD61C2B67E79D00A8AE8D /* Preview Assets.xcassets in Resources */,
+				025AD62F2B67EE2B00A8AE8D /* ramen.json in Resources */,
 				025AD6192B67E79D00A8AE8D /* Assets.xcassets in Resources */,
+				025AD6302B67EE2B00A8AE8D /* dog.json in Resources */,
+				025AD62C2B67EE1900A8AE8D /* baseball.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
